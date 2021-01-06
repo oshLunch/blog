@@ -1,0 +1,5 @@
+package com.cos.reflect.anno;
+
+public @interface RequestMapping {
+
+}

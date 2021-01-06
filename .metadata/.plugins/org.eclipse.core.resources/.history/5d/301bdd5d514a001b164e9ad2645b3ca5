@@ -1,0 +1,32 @@
+package com.cos.reflect.filter;
+
+import com.cos.reflect.controller.UserController;
+import com.sun.org.apache.bcel.internal.classfile.Method;
+
+public class Dispatcher {
+	// /user 파싱하기
+	String endPoint = request.getRequestURI().replaceAll(request.getContextPath(),"");
+	
+	UserController userController = new UserController();
+//	if(endPoint.equals("/join")) {
+//		userController.join();
+//	} else if(endPoint.equals("/login")) {
+//		userController.login();
+//	} else if(endPoint.equals("/user")) {
+//		userController.user();
+//	}
+	
+	// 리플렉션 -> 메서드를 런타임 시점에서 찾아내서 실행
+	Method[] methods = userController.getClass().getDeclaredMethods();	// 그 파일에 메서드만
+//	for (Method method : methods) {
+//		//System.out.println(method.getName());
+//		if(endPoint.equals("/"+method.getName())) {
+//			try {
+//				method.invoke(userController);
+//			} catch (Exception e) {
+//				e.printStackTrace();
+//			}
+//		}
+//	}
+}
+}

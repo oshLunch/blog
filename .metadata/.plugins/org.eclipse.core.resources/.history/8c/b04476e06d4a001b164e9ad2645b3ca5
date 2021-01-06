@@ -1,0 +1,5 @@
+package com.cos.reflect.model;
+
+public class User {
+
+}

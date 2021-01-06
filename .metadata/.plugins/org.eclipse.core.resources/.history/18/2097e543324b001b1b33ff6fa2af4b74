@@ -1,0 +1,21 @@
+package com.cos.blog.web;
+
+public class ReplyController {
+	private static final long serialVersionUID = 1L;
+
+    public ReplyController() {
+        super();
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doProcess(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doProcess(request, response);
+	}
+	
+	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}
+}
