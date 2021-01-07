@@ -155,7 +155,7 @@
 
       <Context docBase="D:\mywork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\mywork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\blog" path="/blog" reloadable="true" source="org.eclipse.jst.jee.server:blog">
 	<Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/TestDB" password="bitc5600" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul" username="bloguser"/>
-</Context><Context docBase="D:\mywork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ajax" path="/ajax" reloadable="true" source="org.eclipse.jst.jee.server:ajax"/></Host>
+</Context></Host>
     </Engine>
   </Service>
 </Server>
